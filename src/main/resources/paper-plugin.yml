@@ -4,7 +4,3 @@ main: io.github.hinolab.teamdeathmatch.TeamDeathmatch
 api-version: '1.20'
 authors: [M1n1don]
 website: https://github.com/HinoLab/TeamDeathmatch
-
-# defaultTeams:
-#   デフォルトのチーム数
-defaultTeams: 2

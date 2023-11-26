@@ -3,3 +3,7 @@
 # Created by M1n1don
 # - GitHub: https://github.com/HinoLab/TeamDeathmatch
 ##
+
+# defaultTeams:
+#   デフォルトのチーム数
+defaultTeams: 2

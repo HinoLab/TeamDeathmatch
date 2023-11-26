@@ -4,4 +4,5 @@ import hazae41.minecraft.kutils.bukkit.PluginConfigFile
 
 object MainConfig : PluginConfigFile("config")
 {
+    var defaultTeams by int("defaultTeams")
 }

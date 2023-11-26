@@ -1,0 +1,6 @@
+name: TeamDeathmatch
+version: '${version}'
+main: io.github.hinolab.teamdeathmatch.TeamDeathmatch
+api-version: '1.19'
+authors: [M1n1don]
+website: https://github.com/HinoLab/TeamDeathmatch

@@ -16,11 +16,16 @@ repositories {
         name = "sonatype"
         url = "https://oss.sonatype.org/content/groups/public/"
     }
+    maven {
+        name = "jitpack"
+        url = "https://jitpack.io"
+    }
 }
 
 dependencies {
     compileOnly "io.papermc.paper:paper-api:1.20.1-R0.1-SNAPSHOT"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation "com.github.hazae41:mc-kutils:master-SNAPSHOT"
 }
 
 def targetJavaVersion = 17
@@ -45,6 +50,7 @@ processResources {
         expand props
     }
 }
+
 kotlin {
     jvmToolchain(17)
 }
